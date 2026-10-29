@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a1f5c">
+<meta name="description" content="OrientaSaúde – orientação segura para cuidar de você. Protótipo informativo, não faz diagnóstico.">
+<title>OrientaSaúde</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="stage">
+  <aside class="side" aria-hidden="true">
+    <h2>Orienta<span>Saúde</span></h2>
+    <p>Sistema de Orientação sobre Sintomas e Busca por Atendimento Médico.</p>
+    <ul>
+      <li>Centro Universitário Dinâmica das Cataratas</li>
+      <li>Ciência da Computação · Engenharia de Software</li>
+      <li>ODS 3 – Saúde e Bem-Estar</li>
+    </ul>
+    <small>Protótipo informativo. Não realiza diagnósticos nem substitui a avaliação de um profissional de saúde.</small>
+  </aside>
+
+  <div class="device" id="device">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="sb-r">
+        <svg width="18" height="12" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5" width="3" height="7" rx="1"/><rect x="10" y="2" width="3" height="10" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>
+        <svg width="18" height="13" viewBox="0 0 24 18" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M2 6a15 15 0 0 1 20 0"/><path d="M6 10.5a9 9 0 0 1 12 0"/><circle cx="12" cy="15" r="1.5" fill="currentColor"/></svg>
+        <svg width="26" height="13" viewBox="0 0 26 13"><rect x="0.5" y="0.5" width="22" height="12" rx="3.5" fill="#12b76a" stroke="#0a1228"/><rect x="23.5" y="4" width="2" height="5" rx="1" fill="#0a1228"/></svg>
+      </span>
+    </div>
+
+    <main class="scroll" id="view" tabindex="-1"></main>
+
+    <nav class="nav" id="nav" aria-label="Navegação principal">
+      <button data-tab="inicio" data-go="inicio"><span class="ic" data-i="home"></span><span>Início</span></button>
+      <button data-tab="registros" data-go="sintomas"><span class="ic" data-i="file"></span><span>Registros</span></button>
+      <button data-tab="lembretes" data-go="lembretes"><span class="ic" data-i="bell"></span><span>Lembretes</span></button>
+      <button data-tab="perfil" data-go="perfil"><span class="ic" data-i="user"></span><span>Perfil</span></button>
+    </nav>
+
+    <div class="overlay" id="overlay" hidden></div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
