@@ -78,7 +78,8 @@ def fetch_articles(feed):
         body = response.read(2_000_001)
     if len(body) > 2_000_000:
         raise ValueError("Feed ultrapassou limite de 2 MB")
-    root = ET.fromstring(body)
+    # Alguns feeds oficiais incluem espaços ou linhas vazias antes do XML.
+    root = ET.fromstring(body.lstrip())
     entries = root.findall("./channel/item")
     if not entries:
         raise ValueError("Feed sem itens RSS reconhecíveis")
