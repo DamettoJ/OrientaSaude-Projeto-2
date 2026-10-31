@@ -1,6 +1,11 @@
 name: Atualizar notícias oficiais de saúde (Tríplice Fronteira)
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_news.py
+      - .github/workflows/update-news.yml
   schedule:
     # A cada 6 horas (UTC). Agendamentos do GitHub podem sofrer atrasos.
     - cron: '17 */6 * * *'
