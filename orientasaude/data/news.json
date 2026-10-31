@@ -1,5 +1,5 @@
 {
-  "checked_at": null,
+  "checked_at": "2026-10-31T12:36:22+00:00",
   "disclaimer": "Notícias oficiais para consulta. Não são alertas locais confirmados nem vigilância em tempo real.",
   "sources": [
     {
@@ -7,25 +7,206 @@
       "name": "Secretaria da Saúde do Paraná",
       "coverage": "Paraná · Brasil",
       "url": "https://www.saude.pr.gov.br/rss.xml",
-      "status": "aguardando",
-      "last_success_at": null
+      "status": "ok",
+      "last_success_at": "2026-10-31T12:36:22+00:00"
     },
     {
       "id": "paraguai",
       "name": "Dirección General de Vigilancia de la Salud",
       "coverage": "Paraguai · abrangência nacional",
       "url": "https://dgvs.mspbs.gov.py/feed/",
-      "status": "aguardando",
-      "last_success_at": null
+      "status": "ok",
+      "last_success_at": "2026-10-31T12:36:22+00:00"
     },
     {
       "id": "argentina",
       "name": "Ministerio de Salud de Argentina",
       "coverage": "Argentina · abrangência nacional",
       "url": "https://www.argentina.gob.ar/salud/noticias/rss",
-      "status": "aguardando",
+      "status": "indisponivel",
       "last_success_at": null
     }
   ],
-  "items": []
+  "items": [
+    {
+      "title": "Paraná avança em estratégias integradas para eliminar a transmissão vertical da sífilis",
+      "url": "https://www.saude.pr.gov.br/Noticia/Parana-avanca-em-estrategias-integradas-para-eliminar-transmissao-vertical-da-sifilis",
+      "summary": "O Paraná vem consolidando uma série de ações de vigilância e atenção à saúde com o objetivo de eliminar, até 2030, a sífilis congênita, que é a transmissão vertical da doença, que ocorre quando a bactéria passa da mãe para o bebê durante a gestação ou parto.",
+      "published_at": "2026-10-30T16:51:19+00:00",
+      "source_id": "parana",
+      "source": "Secretaria da Saúde do Paraná",
+      "coverage": "Paraná · Brasil"
+    },
+    {
+      "title": "Saúde estende Outubro Rosa e alerta para os cuidados do homem no Novembro Azul",
+      "url": "https://www.saude.pr.gov.br/Noticia/Saude-estende-Outubro-Rosa-e-alerta-para-os-cuidados-do-homem-no-Novembro-Azul",
+      "summary": "A prevenção e alerta dos cuidados com a saúde da mulher, em especial em relação ao câncer de mama e colo do útero, além de saúde do homem, incluindo os cuidados para evitar ou tratar o câncer de próstata, são os principais temas.",
+      "published_at": "2026-10-30T13:40:31+00:00",
+      "source_id": "parana",
+      "source": "Secretaria da Saúde do Paraná",
+      "coverage": "Paraná · Brasil"
+    },
+    {
+      "title": "Curva de virus respiratorios supera el promedio a causa del rhinovirus",
+      "url": "https://dgvs.mspbs.gov.py/curva-de-virus-respiratorios-supera-el-promedio-a-causa-del-rhinovirus/",
+      "summary": "Aunque la proporción de hospitalizados viene registrando un descenso progresivo, en la última semana se observó un repunte en los ingresos por infecciones respiratorias agudas, ubicando a la curva epidemiológica por encima del promedio esperado. En los Centros",
+      "published_at": "2026-10-30T11:15:10+00:00",
+      "source_id": "paraguai",
+      "source": "Dirección General de Vigilancia de la Salud",
+      "coverage": "Paraguai · abrangência nacional"
+    },
+    {
+      "title": "Dengue: sin brotes activos, pero con ligero crecimiento de notificaciones en las últimas semanas",
+      "url": "https://dgvs.mspbs.gov.py/dengue-sin-brotes-activos-pero-con-ligero-crecimiento-de-notificaciones-en-las-ultimas-semanas/",
+      "summary": "Las condiciones climáticas de lluvia favorecen la proliferación de mosquitos y elevan el riesgo de transmisión del dengue. Por este motivo, se insiste en mantener las acciones de control de entornos para prevenir criaderos, vaciando, tapando y desechando cualq",
+      "published_at": "2026-10-30T11:00:52+00:00",
+      "source_id": "paraguai",
+      "source": "Dirección General de Vigilancia de la Salud",
+      "coverage": "Paraguai · abrangência nacional"
+    },
+    {
+      "title": "Salud coordina taller para validar hoja de ruta que acelerará la eliminación de enfermedades transmisibles",
+      "url": "https://dgvs.mspbs.gov.py/salud-coordina-taller-para-validar-la-hoja-de-ruta-que-acelerara-la-eliminacion-de-enfermedades-transmisibles/",
+      "summary": "Con la participación de diversas instituciones y el apoyo técnico de la OPS/OMS, se busca implementar un plan de acción integrado y adaptado a la realidad del país para blindar los logros sanitarios alcanzados. Con el objetivo de trazar una estrategia unificad",
+      "published_at": "2026-10-29T20:51:39+00:00",
+      "source_id": "paraguai",
+      "source": "Dirección General de Vigilancia de la Salud",
+      "coverage": "Paraguai · abrangência nacional"
+    },
+    {
+      "title": "Paraguay asume la Secretaría Ejecutiva del Grupo de Cooperación Técnica Horizontal para el período 2027-2028",
+      "url": "https://dgvs.mspbs.gov.py/paraguay-asume-la-secretaria-ejecutiva-del-grupo-de-cooperacion-tecnica-horizontal-para-el-periodo-2027-2028/",
+      "summary": "La Dra. Elena Candia, directora del Programa Nacional de Control del VIH/Sida e ITS (PRONASIDA) fue electa por mayoría de votos para liderar el Grupo de Cooperación Técnica Horizontal (GCTH) de América Latina y el Caribe durante los próximos dos años. Su desig",
+      "published_at": "2026-10-29T16:03:16+00:00",
+      "source_id": "paraguai",
+      "source": "Dirección General de Vigilancia de la Salud",
+      "coverage": "Paraguai · abrangência nacional"
+    },
+    {
+      "title": "Paraná disponibiliza painel de rastreamento organizado do câncer do colo do útero com teste de DNA-HPV",
+      "url": "https://www.saude.pr.gov.br/Noticia/Parana-disponibiliza-painel-de-rastreamento-organizado-do-cancer-do-colo-do-utero-com-teste",
+      "summary": "Ferramenta permite acompanhar a implantação da nova tecnologia, que já chegou a 46 municípios e deve alcançar 256 cidades até o fim do ano. Novo exame substitui o Papanicolau, sendo mais eficiene na detecção precoce do câncer do colo uterino.",
+      "published_at": "2026-10-29T15:39:04+00:00",
+      "source_id": "parana",
+      "source": "Secretaria da Saúde do Paraná",
+      "coverage": "Paraná · Brasil"
+    },
+    {
+      "title": "Día mundial del ACV: Cada minuto cuenta, no ignores las señales de alerta",
+      "url": "https://dgvs.mspbs.gov.py/dia-mundial-del-acv-cada-minuto-cuenta-no-ignores-las-senales-de-alerta/",
+      "summary": "Si observás desvío de la boca, debilidad en brazos o piernas, o dificultad para hablar, podría tratarse de un ataque cerebrovascular. Buscá ayuda: llamá de inmediato al 141 (SEME) o acudí al hospital más cercano. En el marco de esta fecha mundial, se llevará a",
+      "published_at": "2026-10-29T11:19:42+00:00",
+      "source_id": "paraguai",
+      "source": "Dirección General de Vigilancia de la Salud",
+      "coverage": "Paraguai · abrangência nacional"
+    },
+    {
+      "title": "El país fortalece la vigilancia sanitaria en fronteras con misión técnica de OPS/OMS",
+      "url": "https://dgvs.mspbs.gov.py/el-pais-fortalece-la-vigilancia-sanitaria-en-fronteras-con-mision-tecnica-de-ops-oms/",
+      "summary": "El Ministerio de Salud Pública y Bienestar Social (MSPBS), con el acompañamiento técnico de la Organización Panamericana de la Salud/Organización Mundial de la Salud (OPS/OMS) inició una jornada de dos semanas destinada al análisis y fortalecimiento de las cap",
+      "published_at": "2026-10-28T15:06:12+00:00",
+      "source_id": "paraguai",
+      "source": "Dirección General de Vigilancia de la Salud",
+      "coverage": "Paraguai · abrangência nacional"
+    },
+    {
+      "title": "Paraguayos participan en la primera edición del entrenamiento en español de la Red Mundial de Alerta y Respuesta ante Brotes",
+      "url": "https://dgvs.mspbs.gov.py/paraguay-participa-en-la-primera-edicion-del-entrenamiento-en-espanol-de-la-red-mundial-de-alerta-y-respuesta-ante-brotes/",
+      "summary": "El entrenamiento GOARN tuvo lugar en Bogotá, Colombia. Reunió a profesionales de salud pública de siete países de las Américas. La metodología del entrenamiento fue presencial, inmersiva y basada en simulación. El Ministerio de Salud Pública y Bienestar Social",
+      "published_at": "2026-10-27T22:00:37+00:00",
+      "source_id": "paraguai",
+      "source": "Dirección General de Vigilancia de la Salud",
+      "coverage": "Paraguai · abrangência nacional"
+    },
+    {
+      "title": "Sesa e Cosems avançam com novas diretrizes para a saúde pública em reunião da CIB",
+      "url": "https://www.saude.pr.gov.br/Noticia/Sesa-e-Cosems-avancam-com-novas-diretrizes-para-saude-publica-em-reuniao-da-CIB",
+      "summary": "A Secretaria de Estado da Saúde (Sesa) e o Conselho de Secretarias Municipais de Saúde do Paraná (Cosems-PR) realizaram nesta terça-feira (27), em Curitiba, a 5ª Reunião Ordinária da Comissão Intergestores Bipartite (CIB) de 2026. O encontro contou com gestore",
+      "published_at": "2026-10-27T20:06:47+00:00",
+      "source_id": "parana",
+      "source": "Secretaria da Saúde do Paraná",
+      "coverage": "Paraná · Brasil"
+    },
+    {
+      "title": "Projetos de alunos de Pontal do Paraná representarão o Estado em mostra nacional do Saúde na Escola",
+      "url": "https://www.saude.pr.gov.br/Noticia/Projetos-de-alunos-de-Pontal-do-Parana-representarao-o-Estado-em-mostra-nacional-do-Saude",
+      "summary": "Iniciativa selecionada pela comissão estadual concorrerá com 54 projetos de todo o País em Brasília. Etapa final busca reconhecer \"Experiências Inspiradoras\" desenvolvidas por alunos da rede pública estadual.",
+      "published_at": "2026-10-27T14:09:17+00:00",
+      "source_id": "parana",
+      "source": "Secretaria da Saúde do Paraná",
+      "coverage": "Paraná · Brasil"
+    },
+    {
+      "title": "Arranca Semana del ACV para reducir la mortalidad y secuelas del ataque cerebrovascular",
+      "url": "https://dgvs.mspbs.gov.py/arranca-la-semana-del-acv-para-reducir-la-mortalidad-y-secuelas-del-ataque-cerebral/",
+      "summary": "Una iniciativa clave para alertar a la ciudadanía sobre una enfermedad que representa la segunda causa de muerte cardiovascular y la importancia de los chequeos preventivos. En el marco de las actividades por el Día Mundial del ACV, se pone en marcha la «Seman",
+      "published_at": "2026-10-26T18:36:03+00:00",
+      "source_id": "paraguai",
+      "source": "Dirección General de Vigilancia de la Salud",
+      "coverage": "Paraguai · abrangência nacional"
+    },
+    {
+      "title": "Carreta Saúde da Mulher chega a Imbaú para atender seis municípios dos Campos Gerais",
+      "url": "https://www.saude.pr.gov.br/Noticia/Carreta-Saude-da-Mulher-chega-Imbau-para-atender-seis-municipios-dos-Campos-Gerais",
+      "summary": "Além das moradoras da cidade, a estrutura vai atender mulheres de Faxinal, Ortigueira, Mauá da Serra, Marilândia do Sul e Califórnia. O programa tem como objetivo descentralizar os serviços de saúde e garantir o acesso ao diagnóstico precoce dos cânceres de ma",
+      "published_at": "2026-10-26T18:14:47+00:00",
+      "source_id": "parana",
+      "source": "Secretaria da Saúde do Paraná",
+      "coverage": "Paraná · Brasil"
+    },
+    {
+      "title": "Unidade de Cuidados Paliativos do Hospital Zona Norte de Londrina completa 10 anos",
+      "url": "https://www.saude.pr.gov.br/Noticia/Unidade-de-Cuidados-Paliativos-do-Hospital-Zona-Norte-de-Londrina-completa-10-anos",
+      "summary": "A unidade é membro do Grupo Técnico do Programa Municipal de Cuidados Paliativos de Londrina, que integra serviços da atenção primária, atenção domiciliar, serviços de urgência e hospitais, para organizar o fluxo destes pacientes na rede de saúde, organizar ca",
+      "published_at": "2026-10-26T17:48:46+00:00",
+      "source_id": "parana",
+      "source": "Secretaria da Saúde do Paraná",
+      "coverage": "Paraná · Brasil"
+    },
+    {
+      "title": "87 milhões de doses: após reverter queda, Paraná alcança maior índice de vacinação da década",
+      "url": "https://www.saude.pr.gov.br/Noticia/87-milhoes-de-doses-apos-reverter-queda-Parana-alcanca-maior-indice-de-vacinacao-da-decada",
+      "summary": "Trajetória de queda, iniciada em 2016, foi superada após uma grande mobilização entre o Governo do Estado e as prefeituras. Dados do Ministério da Saúde e da Secretaria de Estado da Saúde (Sesa) apontam que o Estado já aplicou mais de 87 milhões de doses no pe",
+      "published_at": "2026-10-26T16:43:16+00:00",
+      "source_id": "parana",
+      "source": "Secretaria da Saúde do Paraná",
+      "coverage": "Paraná · Brasil"
+    },
+    {
+      "title": "Hospital de Dermatologia Sanitária comemora 100 anos olhando para o futuro",
+      "url": "https://www.saude.pr.gov.br/Noticia/Hospital-de-Dermatologia-Sanitaria-comemora-100-anos-olhando-para-o-futuro",
+      "summary": "Festa de comemoração de sua criança também marca os planos para sua nova etapa, que será reestrutura e ampliada com investimentos de R$ 39 milhões da Sesa",
+      "published_at": "2026-10-23T20:19:24+00:00",
+      "source_id": "parana",
+      "source": "Secretaria da Saúde do Paraná",
+      "coverage": "Paraná · Brasil"
+    },
+    {
+      "title": "Ministerio de Salud fortalece consultorios de manejo integral de la obesidad en personas adultas",
+      "url": "https://dgvs.mspbs.gov.py/ministerio-de-salud-fortalece-los-consultorios-de-manejo-integral-de-la-obesidad-en-personas-adultas/",
+      "summary": "Profesionales de los servicios de salud participaron de una jornada de capacitación e intercambio de experiencias orientada a mejorar la calidad de atención, fortalecer el seguimiento de los pacientes y avanzar en el registro y monitoreo de los consultorios. S",
+      "published_at": "2026-10-23T18:00:44+00:00",
+      "source_id": "paraguai",
+      "source": "Dirección General de Vigilancia de la Salud",
+      "coverage": "Paraguai · abrangência nacional"
+    },
+    {
+      "title": "Estado amplia rastreio nutricional e ultrapassa meta global de aleitamento materno",
+      "url": "https://www.saude.pr.gov.br/Noticia/Estado-amplia-rastreio-nutricional-e-ultrapassa-meta-global-de-aleitamento-materno",
+      "summary": "Levantamento da Secretaria da Saúde aponta que a cobertura de registros saltou quase cinco vezes na última década. Monitoramento é importante para adoção de políticas públicas visando aprimorar as inúmeras ações já adotadas na Atenção Primária à Saúde (APS) no",
+      "published_at": "2026-10-23T12:31:27+00:00",
+      "source_id": "parana",
+      "source": "Secretaria da Saúde do Paraná",
+      "coverage": "Paraná · Brasil"
+    },
+    {
+      "title": "Rhinovirus causa más de la mitad de las internaciones por cuadros respiratorios",
+      "url": "https://dgvs.mspbs.gov.py/rhinovirus-causa-mas-de-la-mitad-de-las-internaciones-por-cuadros-respiratorios/",
+      "summary": "A pesar de que se registra una tendencia a la baja en las consultas, se confirma la circulación simultánea de virus respiratorios, con el Rhinovirus liderando las hospitalizaciones, seguido por el VSR y el Metapneumovirus. En las últimas cuatro semanas, corres",
+      "published_at": "2026-10-23T11:30:53+00:00",
+      "source_id": "paraguai",
+      "source": "Dirección General de Vigilancia de la Salud",
+      "coverage": "Paraguai · abrangência nacional"
+    }
+  ]
 }
