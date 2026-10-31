@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-31T12:36:22+00:00",
+  "checked_at": "2026-10-31T12:37:03+00:00",
   "disclaimer": "Notícias oficiais para consulta. Não são alertas locais confirmados nem vigilância em tempo real.",
   "sources": [
     {
@@ -8,7 +8,7 @@
       "coverage": "Paraná · Brasil",
       "url": "https://www.saude.pr.gov.br/rss.xml",
       "status": "ok",
-      "last_success_at": "2026-10-31T12:36:22+00:00"
+      "last_success_at": "2026-10-31T12:37:03+00:00"
     },
     {
       "id": "paraguai",
@@ -16,15 +16,15 @@
       "coverage": "Paraguai · abrangência nacional",
       "url": "https://dgvs.mspbs.gov.py/feed/",
       "status": "ok",
-      "last_success_at": "2026-10-31T12:36:22+00:00"
+      "last_success_at": "2026-10-31T12:37:03+00:00"
     },
     {
       "id": "argentina",
       "name": "Ministerio de Salud de Argentina",
       "coverage": "Argentina · abrangência nacional",
       "url": "https://www.argentina.gob.ar/salud/noticias/rss",
-      "status": "indisponivel",
-      "last_success_at": null
+      "status": "ok",
+      "last_success_at": "2026-10-31T12:37:03+00:00"
     }
   ],
   "items": [
@@ -63,6 +63,15 @@
       "source_id": "paraguai",
       "source": "Dirección General de Vigilancia de la Salud",
       "coverage": "Paraguai · abrangência nacional"
+    },
+    {
+      "title": "Lugones cuestionó los cobros de los colegios profesionales: “nadie debería pagar para trabajar”",
+      "url": "https://www.argentina.gob.ar/noticias/lugones-cuestiono-los-cobros-de-los-colegios-profesionales-nadie-deberia-pagar-para",
+      "summary": "El Ministro de Salud de la Nación, Mario Lugones, participó del V Congreso Nacional del Consejo de Obras y Servicios Sociales Provinciales de la República Argentina (COSSPRA), realizado en Puerto Iguazú, Misiones, que reunió a representantes de las 24 obras so",
+      "published_at": "2026-10-29T23:08:45+00:00",
+      "source_id": "argentina",
+      "source": "Ministerio de Salud de Argentina",
+      "coverage": "Argentina · abrangência nacional"
     },
     {
       "title": "Salud coordina taller para validar hoja de ruta que acelerará la eliminación de enfermedades transmisibles",
@@ -128,6 +137,15 @@
       "coverage": "Paraná · Brasil"
     },
     {
+      "title": "Actualización del Boletín Epidemiológico Nacional de la semana N° 41",
+      "url": "https://www.argentina.gob.ar/noticias/actualizacion-del-boletin-epidemiologico-nacional-de-la-semana-ndeg-41",
+      "summary": "El Boletín Epidemiológico Nacional (BEN) correspondiente a la semana epidemiológica (SE) 41 informa que se consolida la tendencia descendente en la circulación de virus respiratorios. Mientras que en las notificaciones de influenza se mantiene el predominio de",
+      "published_at": "2026-10-27T20:02:54+00:00",
+      "source_id": "argentina",
+      "source": "Ministerio de Salud de Argentina",
+      "coverage": "Argentina · abrangência nacional"
+    },
+    {
       "title": "Projetos de alunos de Pontal do Paraná representarão o Estado em mostra nacional do Saúde na Escola",
       "url": "https://www.saude.pr.gov.br/Noticia/Projetos-de-alunos-de-Pontal-do-Parana-representarao-o-Estado-em-mostra-nacional-do-Saude",
       "summary": "Iniciativa selecionada pela comissão estadual concorrerá com 54 projetos de todo o País em Brasília. Etapa final busca reconhecer \"Experiências Inspiradoras\" desenvolvidas por alunos da rede pública estadual.",
@@ -173,6 +191,15 @@
       "coverage": "Paraná · Brasil"
     },
     {
+      "title": "El Ministro Lugones fortalece la colaboración con la Academia Nacional de Medicina",
+      "url": "https://www.argentina.gob.ar/noticias/el-ministro-lugones-fortalece-la-colaboracion-con-la-academia-nacional-de-medicina",
+      "summary": "El Ministro de Salud de la Nación, Mario Lugones, se reunió con el Presidente de la Academia Nacional de Medicina, Jorge Neira, para profundizar el diálogo y explorar oportunidades de trabajo conjunto en temas de interés para la salud pública. Durante el encue",
+      "published_at": "2026-10-26T14:36:03+00:00",
+      "source_id": "argentina",
+      "source": "Ministerio de Salud de Argentina",
+      "coverage": "Argentina · abrangência nacional"
+    },
+    {
       "title": "Hospital de Dermatologia Sanitária comemora 100 anos olhando para o futuro",
       "url": "https://www.saude.pr.gov.br/Noticia/Hospital-de-Dermatologia-Sanitaria-comemora-100-anos-olhando-para-o-futuro",
       "summary": "Festa de comemoração de sua criança também marca os planos para sua nova etapa, que será reestrutura e ampliada com investimentos de R$ 39 milhões da Sesa",
@@ -200,6 +227,15 @@
       "coverage": "Paraná · Brasil"
     },
     {
+      "title": "El Gobierno nacional jerarquiza a los técnicos en emergencias sanitarias",
+      "url": "https://www.argentina.gob.ar/noticias/el-gobierno-nacional-jerarquiza-los-tecnicos-en-emergencias-sanitarias",
+      "summary": "Mediante el Decreto N°1252/2026 , el Gobierno nacional reconoció oficialmente el trabajo de los Técnicos Universitarios en Emergencia de Salud como actividad de colaboración de la medicina y la odontología, incorporándolos al listado incluido en el artículo 42",
+      "published_at": "2026-10-23T11:33:45+00:00",
+      "source_id": "argentina",
+      "source": "Ministerio de Salud de Argentina",
+      "coverage": "Argentina · abrangência nacional"
+    },
+    {
       "title": "Rhinovirus causa más de la mitad de las internaciones por cuadros respiratorios",
       "url": "https://dgvs.mspbs.gov.py/rhinovirus-causa-mas-de-la-mitad-de-las-internaciones-por-cuadros-respiratorios/",
       "summary": "A pesar de que se registra una tendencia a la baja en las consultas, se confirma la circulación simultánea de virus respiratorios, con el Rhinovirus liderando las hospitalizaciones, seguido por el VSR y el Metapneumovirus. En las últimas cuatro semanas, corres",
@@ -207,6 +243,78 @@
       "source_id": "paraguai",
       "source": "Dirección General de Vigilancia de la Salud",
       "coverage": "Paraguai · abrangência nacional"
+    },
+    {
+      "title": "113 profesionales de enfermería obtuvieron la certificación en cuatro especialidades estratégicas para el sistema de salud",
+      "url": "https://www.argentina.gob.ar/noticias/113-profesionales-de-enfermeria-obtuvieron-la-certificacion-en-cuatro-especialidades",
+      "summary": "Autoridades del Ministerio de Salud de la Nación participaron de la entrega de diplomas a 113 profesionales de enfermería que aprobaron los exámenes de las especialidades de Atención del Paciente Crítico Pediátrico, Atención del Paciente Crítico Neonatal, Aten",
+      "published_at": "2026-10-22T16:49:10+00:00",
+      "source_id": "argentina",
+      "source": "Ministerio de Salud de Argentina",
+      "coverage": "Argentina · abrangência nacional"
+    },
+    {
+      "title": "El Programa Remediar se reformula para priorizar la atención de enfermedades vasculares",
+      "url": "https://www.argentina.gob.ar/noticias/el-programa-remediar-se-reformula-para-priorizar-la-atencion-de-enfermedades-vasculares",
+      "summary": "Mediante la Resolución 1447/2026, el Ministerio de Salud de la Nación aprobó el nuevo Listado de Medicamentos Esenciales para la Prevención y Tratamiento de Enfermedades Vasculares en el Primer Nivel de Atención (PNA). La norma deroga el listado de medicamento",
+      "published_at": "2026-10-20T22:09:02+00:00",
+      "source_id": "argentina",
+      "source": "Ministerio de Salud de Argentina",
+      "coverage": "Argentina · abrangência nacional"
+    },
+    {
+      "title": "2026: se distribuyeron más de 20 millones de dosis del Calendario Nacional de Vacunación",
+      "url": "https://www.argentina.gob.ar/noticias/2026-se-distribuyeron-mas-de-20-millones-de-dosis-del-calendario-nacional-de-vacunacion",
+      "summary": "El ministro de Salud de la Nación, Mario Lugones, recorrió el centro logístico de Andreani donde se almacenan y se distribuyen las vacunas, medicamentos e insumos sanitarios adquiridos por la cartera sanitaria nacional. Durante la visita, el ministro supervisó",
+      "published_at": "2026-10-20T20:01:21+00:00",
+      "source_id": "argentina",
+      "source": "Ministerio de Salud de Argentina",
+      "coverage": "Argentina · abrangência nacional"
+    },
+    {
+      "title": "Actualización del Boletín Epidemiológico Nacional de la semana N° 40",
+      "url": "https://www.argentina.gob.ar/noticias/actualizacion-del-boletin-epidemiologico-nacional-de-la-semana-ndeg-40",
+      "summary": "El Boletín Epidemiológico Nacional (BEN) correspondiente a la semana epidemiológica (SE) 40 informa que la circulación de virus respiratorios se encuentra en una curva descendente tras los picos alcanzados en el período invernal y se mantienen dentro de los va",
+      "published_at": "2026-10-20T15:24:14+00:00",
+      "source_id": "argentina",
+      "source": "Ministerio de Salud de Argentina",
+      "coverage": "Argentina · abrangência nacional"
+    },
+    {
+      "title": "Luis Quintas es el nuevo Administrador Nacional de Establecimientos de Salud",
+      "url": "https://www.argentina.gob.ar/noticias/luis-quintas-es-el-nuevo-administrador-nacional-de-establecimientos-de-salud",
+      "summary": "El Gobierno Nacional designó al Doctor Luis Quintas como nuevo Administrador Nacional de Establecimientos de Salud (ANES), organismo dependiente del Ministerio de Salud de la Nación, responsable de la administración y gestión integral de los establecimientos d",
+      "published_at": "2026-10-20T12:28:44+00:00",
+      "source_id": "argentina",
+      "source": "Ministerio de Salud de Argentina",
+      "coverage": "Argentina · abrangência nacional"
+    },
+    {
+      "title": "La mortalidad por cáncer de mama descendió 14% en la última década",
+      "url": "https://www.argentina.gob.ar/noticias/la-mortalidad-por-cancer-de-mama-descendio-14-en-la-ultima-decada",
+      "summary": "Entre 2014 y 2024, la tasa de mortalidad por cáncer de mama en Argentina descendió un 14%, al pasar de 17,76 a 15,36 defunciones por cada 100.000 mujeres. Aunque la tendencia muestra una disminución sostenida, la enfermedad continúa siendo una de las principal",
+      "published_at": "2026-10-16T20:17:51+00:00",
+      "source_id": "argentina",
+      "source": "Ministerio de Salud de Argentina",
+      "coverage": "Argentina · abrangência nacional"
+    },
+    {
+      "title": "Salud presentó un mapa regional de prevención vascular en el Congreso Argentino de Cardiología",
+      "url": "https://www.argentina.gob.ar/noticias/salud-presento-un-mapa-regional-de-prevencion-vascular-en-el-congreso-argentino-de",
+      "summary": "El Ministerio de Salud de la Nación participó del Congreso Argentino de Cardiología con Mapa Regional Sobre Enfermedades No Transmisibles (ENT), una herramienta innovadora que permite comparar indicadores epidemiológicos de las cinco regiones del país y observ",
+      "published_at": "2026-10-16T19:53:57+00:00",
+      "source_id": "argentina",
+      "source": "Ministerio de Salud de Argentina",
+      "coverage": "Argentina · abrangência nacional"
+    },
+    {
+      "title": "Argentina será sede de un nuevo hub de investigación clínica para latinoamérica",
+      "url": "https://www.argentina.gob.ar/noticias/argentina-sera-sede-de-un-nuevo-hub-de-investigacion-clinica-para-latinoamerica",
+      "summary": "En el marco de los avances para fortalecer el posicionamiento científico y de inversión en el país, el ministro de Salud de la Nación, Mario Lugones, mantuvo una reunión de trabajo con autoridades de la empresa biotecnológica Amgen. En el encuentro se destacó ",
+      "published_at": "2026-10-16T15:44:40+00:00",
+      "source_id": "argentina",
+      "source": "Ministerio de Salud de Argentina",
+      "coverage": "Argentina · abrangência nacional"
     }
   ]
 }
