@@ -146,6 +146,11 @@ S.inicio = () => `${brand()}
     ${acard('registros','teal','file','Meus registros','Consulte orientações anteriores.')}
     ${acard('unidades','blue','pin','Unidades de saúde','Encontre locais de atendimento.')}
   </div>
+  <a href="noticias.html" class="linkrow" style="margin-top:14px;text-decoration:none" aria-label="Acessar notícias oficiais de saúde da Tríplice Fronteira">
+    <span class="ico c-green">${I('book',22)}</span>
+    <span><b>Notícias oficiais de saúde</b><small>Paraná, Paraguai e Argentina · fontes oficiais</small></span>
+    <span class="chev">${I('chevR',20,2.6)}</span>
+  </a>
   <div class="card tint mt row" style="margin-top:16px"><span class="ico c-green lg" style="--c:#0b9f6c;--cb:#dff5ea">${I('shieldOk',28)}</span>
     <div><b>Informação segura, passo a passo</b><p>O OrientaSaúde informa e orienta. Não faz diagnósticos nem substitui a avaliação de profissionais de saúde.</p></div></div>
   <div class="sec"><h2 style="font-size:1.25rem">Também pode ajudar você</h2></div>
