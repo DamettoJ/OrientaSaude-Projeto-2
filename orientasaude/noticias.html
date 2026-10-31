@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Notícias oficiais de saúde pública do Paraná, Paraguai e Argentina.">
+<meta name="theme-color" content="#0a1f5c">
+<title>Notícias oficiais · OrientaSaúde</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="noticias.css">
+</head>
+<body>
+<div class="stage">
+  <aside class="side" aria-hidden="true">
+    <h2>Orienta<span>Saúde</span></h2>
+    <p>Notícias oficiais de saúde da Tríplice Fronteira e suas regiões.</p>
+    <small>Atualização programada por fontes públicas. Não equivale à vigilância epidemiológica em tempo real.</small>
+  </aside>
+  <div class="device">
+    <main class="scroll news-scroll">
+      <a class="return" href="index.html">← Voltar ao OrientaSaúde</a>
+      <header class="news-header">
+        <span class="news-eyebrow">FONTES PÚBLICAS</span>
+        <h1>Notícias de saúde</h1>
+        <p>Publicações de órgãos oficiais. Notícias nacionais e estaduais não indicam necessariamente eventos na sua cidade.</p>
+      </header>
+      <div class="news-warning" role="note">
+        Notícias não são alertas de emergência. Para atendimento urgente, procure o serviço local de emergência.
+      </div>
+      <label class="lbl" for="region">Região de interesse</label>
+      <select class="field" id="region">
+        <option value="all">Todas as fontes</option>
+        <option value="parana">Foz do Iguaçu · notícias do Paraná</option>
+        <option value="paraguai">Ciudad del Este · notícias nacionais do Paraguai</option>
+        <option value="argentina">Puerto Iguazú · notícias nacionais da Argentina</option>
+      </select>
+      <p id="last-update" class="news-meta" aria-live="polite">Consultando arquivo de notícias…</p>
+      <section id="source-status" class="source-status" aria-label="Situação das fontes"></section>
+      <div class="sec"><h2>Publicações</h2></div>
+      <section id="news-list" class="news-list" aria-live="polite">
+        <p class="empty">Carregando notícias…</p>
+      </section>
+      <p class="news-footer">Informações reproduzidas com link para a fonte pública original. Consulte o órgão responsável para confirmar atualizações e contexto local.</p>
+    </main>
+  </div>
+</div>
+<script src="noticias.js" defer></script>
+</body>
+</html>

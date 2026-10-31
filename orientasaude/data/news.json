@@ -1,0 +1,31 @@
+{
+  "checked_at": null,
+  "disclaimer": "Notícias oficiais para consulta. Não são alertas locais confirmados nem vigilância em tempo real.",
+  "sources": [
+    {
+      "id": "parana",
+      "name": "Secretaria da Saúde do Paraná",
+      "coverage": "Paraná · Brasil",
+      "url": "https://www.saude.pr.gov.br/rss.xml",
+      "status": "aguardando",
+      "last_success_at": null
+    },
+    {
+      "id": "paraguai",
+      "name": "Dirección General de Vigilancia de la Salud",
+      "coverage": "Paraguai · abrangência nacional",
+      "url": "https://dgvs.mspbs.gov.py/feed/",
+      "status": "aguardando",
+      "last_success_at": null
+    },
+    {
+      "id": "argentina",
+      "name": "Ministerio de Salud de Argentina",
+      "coverage": "Argentina · abrangência nacional",
+      "url": "https://www.argentina.gob.ar/salud/noticias/rss",
+      "status": "aguardando",
+      "last_success_at": null
+    }
+  ],
+  "items": []
+}
