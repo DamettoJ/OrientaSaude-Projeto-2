@@ -43,3 +43,21 @@ Projeto da disciplina de Engenharia de Software · Ciência da Computação · C
 - Em `UNITS` (no `app.js`) estão unidades de exemplo, sem endereço. Cadastre endereços e horários oficiais.
 - Os dados (registros e lembretes) ficam apenas no navegador do usuário (`localStorage`).
 - Os avisos de lembrete funcionam com o app aberto.
+
+
+## Notícias oficiais de saúde (atualização automática)
+
+A página `noticias.html` exibe publicações oficiais, separadas por fonte:
+- Foz do Iguaçu: Secretaria da Saúde do **Paraná** (fonte estadual, não municipal).
+- Ciudad del Este: Dirección General de Vigilancia de la Salud do **Paraguai** (fonte nacional).
+- Puerto Iguazú: Ministério da Saúde da **Argentina** (fonte nacional).
+
+O script `scripts/update_news.py` coleta os feeds RSS oficiais, valida se cada link pertence ao domínio da fonte, remove marcação HTML das descrições e publica `orientasaude/data/news.json`. O workflow `.github/workflows/update-news.yml` está agendado para executar **a cada 6 horas**, com opção de execução manual em **Actions → Atualizar notícias oficiais de saúde (Tríplice Fronteira) → Run workflow**.
+
+**Para ativar depois de integrar a alteração à branch padrão:**
+1. Habilite GitHub Actions nas configurações do repositório.
+2. Em **Settings → Actions → General**, permita à automação gravar os conteúdos do repositório (*Read and write permissions*) quando necessário; caso contrário o passo de publicação falhará.
+3. Execute manualmente o workflow uma vez e confirme que o arquivo `orientasaude/data/news.json` recebeu os dados atuais.
+4. Publique a pasta `orientasaude/` como a raiz do site estático (por exemplo, mova os arquivos para a pasta de publicação ou configure um processo de deploy). GitHub Pages não publica diretamente uma subpasta arbitrária via "Deploy from a branch".
+
+Se um feed não responder, a última lista de publicações daquela fonte é mantida, com identificação de **fonte indisponível**. A tela mostra a data da última consulta e avisa quando os dados estiverem antigos. Notícias estaduais/nacionais **não são provas de surtos na cidade selecionada**, tampouco substituem alertas oficiais ou avaliação médica. O app não acessa dados privados de saúde nem sistemas internos de vigilância.
