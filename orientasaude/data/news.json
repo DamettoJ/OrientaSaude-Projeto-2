@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-01T06:07:12+00:00",
+  "checked_at": "2026-11-01T13:26:26+00:00",
   "disclaimer": "Notícias oficiais para consulta. Não são alertas locais confirmados nem vigilância em tempo real.",
   "sources": [
     {
@@ -8,7 +8,7 @@
       "coverage": "Paraná · Brasil",
       "url": "https://www.saude.pr.gov.br/rss.xml",
       "status": "ok",
-      "last_success_at": "2026-11-01T06:07:12+00:00"
+      "last_success_at": "2026-11-01T13:26:26+00:00"
     },
     {
       "id": "paraguai",
@@ -16,7 +16,7 @@
       "coverage": "Paraguai · abrangência nacional",
       "url": "https://dgvs.mspbs.gov.py/feed/",
       "status": "ok",
-      "last_success_at": "2026-11-01T06:07:12+00:00"
+      "last_success_at": "2026-11-01T13:26:26+00:00"
     },
     {
       "id": "argentina",
@@ -24,7 +24,7 @@
       "coverage": "Argentina · abrangência nacional",
       "url": "https://www.argentina.gob.ar/salud/noticias/rss",
       "status": "ok",
-      "last_success_at": "2026-11-01T06:07:12+00:00"
+      "last_success_at": "2026-11-01T13:26:26+00:00"
     }
   ],
   "items": [
